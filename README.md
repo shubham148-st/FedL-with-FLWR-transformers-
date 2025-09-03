@@ -11,7 +11,7 @@ Upgrade code for the latest Flower versions (e.g., 1.x) if required.
 📦 Dependencies
 Install these Python libraries:
 
-text
+
 flwr==1.20.0
 torch==2.8.0
 torchvision==0.23.0
@@ -29,7 +29,7 @@ Install with:
 📁 Data Setup
 Organize your dataset per client:
 
-text
+
 Client_1/
 ├── train/
 └── test/
@@ -57,15 +57,15 @@ Open three terminals and run:
 
 # Terminal 1:
 
-text
+
 python server.py
 # Terminal 2:
 
-text
+
 python client_111.py
 Terminal 3:
 
-text
+
 python client_112.py
 The system will start ViT-based federated training using FedAvg.
 
