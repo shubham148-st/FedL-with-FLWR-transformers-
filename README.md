@@ -31,11 +31,15 @@ Organize your dataset per client:
 
 
 Client_1/
-├── train/
-└── test/
+  ├── train/
+  └── test/
 Client_2/
-├── train/
-└── test/
+  ├── train/
+  └── test/
+The dataset should consist of images labeled into two classes:
+
+0 → Healthy
+1 → Diseased
 Label images as:
 
 0 → Healthy
@@ -63,10 +67,9 @@ python server.py
 
 
 python client_111.py
-Terminal 3:
-
-
+# Terminal 3:
 python client_112.py
+
 The system will start ViT-based federated training using FedAvg.
 
 Accuracy/loss graphs will be shown.
