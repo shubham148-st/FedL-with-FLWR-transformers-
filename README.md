@@ -55,11 +55,11 @@ Install dependencies (preferably in a virtual environment).
 
 Open three terminals and run:
 
-Terminal 1:
+# Terminal 1:
 
 text
 python server.py
-Terminal 2:
+# Terminal 2:
 
 text
 python client_111.py
