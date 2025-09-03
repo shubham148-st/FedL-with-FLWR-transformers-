@@ -40,11 +40,7 @@ The dataset should consist of images labeled into two classes:
 
 0 → Healthy
 1 → Diseased
-Label images as:
 
-0 → Healthy
-
-1 → Diseased
 
 Update class labels in trans.py if modified.
 
